@@ -4,9 +4,9 @@ export const HeroSection = () => {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex flex-col items-center justify-center px-0 mt-10 sm:mt-0"
+      className="relative min-h-screen flex flex-col items-center justify-center px-0 mt-0 sm:mt-0"
     >
-      <img src='arjun.jpg' alt="" className="h-40 w-40 items-center rounded-full right-5 " id="image"/>
+      <img src='arjun.jpg' alt="" className="h-40 w-40 items-center rounded-full right-5 mb-5 " id="image"/>
       <div className="container max-w-5xl mx-auto text-center z-10">
 
         
@@ -39,7 +39,7 @@ export const HeroSection = () => {
       </div>
 
       <div className=" absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
-        <span className="text-sm text-muted-foreground  mt-20 sm:mt-0"> Scroll </span>
+        <span className="text-sm text-muted-foreground  mt-1 sm:mt-0"> Scroll </span>
         <ArrowDown className="h-5 w-5 text-primary" />
       </div>
     </section>
